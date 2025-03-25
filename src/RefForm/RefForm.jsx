@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 
 const RefForm = () => {
@@ -11,6 +11,10 @@ const RefForm = () => {
     console.log(emailRef.current.value);
     console.log(passwordRef.current.value);
  }
+
+ useEffect(()=>{
+    nameRef.current.focus();
+ },[])
 
 
     return (

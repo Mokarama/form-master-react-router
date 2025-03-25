@@ -3,6 +3,7 @@
  * Form e access e.target.[name oF the input Field].value and name to get values
  *2.use individual state For state For each input Field
  3.controlled element:one object in a state holding all the input Fields value
- 4.uncontrolled element:
-
+ 4.uncontrolled element:useReF to create a reFerence to the element and access value by using like:namereF.current.value
+ 
+ 
  */
