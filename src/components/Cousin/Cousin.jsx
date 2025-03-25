@@ -1,3 +1,4 @@
+import Friend from "../Friend/Friend";
 
 
 const Cousin = ({name}) => {
@@ -5,6 +6,9 @@ const Cousin = ({name}) => {
         <div>
             <h2>Cousin</h2>
             <h2>{name}</h2>
+            <section>
+                {name ==='Mim' && <Friend></Friend>}
+            </section>
         </div>
     );
 };
